@@ -31,15 +31,15 @@ $('#search').on('click', function(mEvent) {
             var mActor = document.createElement('span');
 
 
-            mDiv.className = 'searchResult' + i;
+            mDiv.className = 'searchResult searchResult' + i;
             mDiv.id = 'searchResult' + i;
-            mTitle.className = 'title' + i;
-            mPlot.className = 'plot' + i;
-            mPoster.className = 'poster' + i;
-            mYear.className = 'year' + i;
-            mDirector.className = 'director' + i;
-            mGenre.className = 'genre' + i;
-            mActor.className = 'actor' + i;
+            mTitle.className = 'title title' + i;
+            mPlot.className = 'plot plot' + i;
+            mPoster.className = 'poster poster' + i;
+            mYear.className = 'year year' + i;
+            mDirector.className = 'director director' + i;
+            mGenre.className = 'genre genre' + i;
+            mActor.className = 'actor actor' + i;
 
             document.getElementById('container').appendChild(mDiv);
             document.getElementById('searchResult' + i).appendChild(mTitle);
