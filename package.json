@@ -1,0 +1,25 @@
+{
+  "name": "movie_search_engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasiaetryk/Movie-search-engine.git"
+  },
+  "author": "Katarzyna Etryk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasiaetryk/Movie-search-engine/issues"
+  },
+  "homepage": "https://github.com/kasiaetryk/Movie-search-engine#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
