@@ -8,7 +8,7 @@ body {
   background-color: #FFFFFF; }
 
 .logo {
-  padding: 4%;
+  padding: 4% 10%;
   margin-bottom: 5%; }
   @media (max-width: 650px) {
     .logo {
@@ -52,10 +52,14 @@ p {
       font-size: 15px;
       line-height: 20px; } }
 
+.fa {
+  font-size: 20px; }
+
 .describe {
   text-align: center;
   font-style: italic;
   margin-bottom: 5%;
+  margin-bottom: 3%;
   color: #D9532B; }
 
 form {
@@ -75,6 +79,8 @@ form {
         display: block;
         margin: 0 auto;
         margin-bottom: 3%; } }
+  form input[type=text] {
+    font-size: 15px; }
   form button {
     width: 10%;
     height: 6%;
@@ -84,7 +90,8 @@ form {
     border-radius: 5px; }
     form button:hover {
       transition: .5s;
-      background-color: #DD643D; }
+      background-color: #DD643D;
+      color: #FDFDFE; }
     @media (max-width: 650px) {
       form button {
         min-width: 200px; } }
