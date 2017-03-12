@@ -66,6 +66,7 @@ $('#search').on('click', function(mEvent) {
               }
             });
           }
+          $('footer').css('position', 'relative');
         movieCont.show();       
     }
   });

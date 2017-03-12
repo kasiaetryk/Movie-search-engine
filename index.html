@@ -3,13 +3,15 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <title> Tytuł strony </title>
     </head>
     <body>
         <img src="http://mccom.pl/gfx/mccom.png" alt="mccm" class="logo">
         <form>   
-            <h1>Wyszukiwarka filmów</h1>
+            <h1>Movie search engine</h1>
+            <p class="describe">powered by OMDb</p>
             <label>
                 <input type="text" id="movie-title" placeholder="Movie title" />
             </label>
@@ -19,8 +21,10 @@
             <button id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
         <div id="container" class="container">
-            
         </div>
+        <footer id="footer">
+            <p> Created by Katarzyna Etryk</p>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
     </body>

@@ -7,25 +7,38 @@
 body 
 	font-family: Roboto
 	background-color: #FFFFFF
-	padding: 0 10%
 
 .logo
-	padding: 2%
+	padding: 4%
+	margin-bottom: 5%
+	@media (max-width: 650px)
+		display: block
+		margin: 0 auto
+
 
 h1
 	font-family: Raleway
 	font-size: 60px
 	text-align: center
-	margin-top: 2%
-	margin-bottom: 2%
 	text-shadow: 2px 2px #A4A5A5
 	color: #1B335F
+	@media (max-width: 1024px)
+		font-size: 45px
+	@media (max-width: 350px)
+		font-size: 40px
+		margin-top: 3%
+
 
 h3
 	font-family: Raleway
 	font-size: 42px
 	color: #1B345E
 	text-decoration: underline
+	@media (max-width: 1024px)
+		font-size: 27px
+	@media (max-width: 350px)
+		font-size: 25px
+
 
 p 	
 	font-size: 20px
@@ -33,38 +46,69 @@ p
 	color: #1B345E
 	text-align: justify
 	line-height: 30px
+	@media (max-width: 1024px)
+		font-size: 15px
+		line-height: 20px
+
+.describe
+	text-align: center
+	font-style: italic
+	margin-bottom: 5%
+	color: #D9532B
+
 
 form
 	text-align: center
 	margin-bottom: 5%
+	padding: 0 10%
 
 	input
 		width: 30%
-		height: 5%
+		height: 6%
 		min-height: 30px
 		min-width: 200px
-		box-shadow: 10px 5px #888888
-		border-radius: 5px
+		margin: 1%
+		box-shadow: 0 0 13px 0 #888888
+		border-radius: 5px	
+		@media (max-width: 650px)
+			display: block
+			margin: 0 auto
+			margin-bottom: 3%
+
+
 
 	button
 		width: 10%
-		height: 5%
+		height: 6%
 		min-height: 30px
-		min-width: 50px
-		box-shadow: 10px 5px #888888
+		min-width: 30px
+		box-shadow: 0 0 13px 0 #888888
 		border-radius: 5px
 		&:hover
 			transition: .5s
 			background-color: #DD643D
+		@media (max-width: 650px)
+			min-width: 200px
+
+
+			
 
 .container
+	padding: 0 10%
 	
 	.searchResult
 		margin: 2% 0
 		padding: 5% 5%
-		height: 450px
+		height: 470px
 		background-color: #F4F6F6
 		border-radius: 10px
+		@media (max-width: 1024px)
+			height: 350px
+		@media (max-width: 650px)
+			height: 600px
+		@media (max-width: 350px)
+			height: 650px
+					
 	
 		.poster
 			img
@@ -72,24 +116,27 @@ form
 				height: 350px
 				width: 230px
 				margin-right: 5%
-
+				@media (max-width: 1024px)
+					height: 250px
+					width: 165px
+				@media (max-width: 650px)	
+					float: none
+					margin-bottom: 2%
 
 		.title
 			padding-bottom: 2% 
 
-		.plot
+footer
+	background-color: #1B335F
+	margin: 0 auto
+	width: 100%
+	position: fixed
+	bottom: 0
 
-
-		.year
-
-
-		.director
-
-
-		.genre
-
-
-		.actor
+	p
+		color: #FDFDFE
+		font-family: Raleway
+		text-align: center
 
 
 
